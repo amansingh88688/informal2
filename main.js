@@ -8,10 +8,10 @@
 
 function showNotLoadedAndPlayAudio() {
   // Show not-loaded class after 1 second
-  const timeoutId = setTimeout(() => {
+  // const timeoutId = setTimeout(() => {
     document.querySelector('.not-loaded').classList.remove("not-loaded");
-    clearTimeout(timeoutId);
-  }, 1000);
+    // clearTimeout(timeoutId);
+  // }, 1000);
 
   // Play audio in a loop
   const audio = document.getElementById("myAudio");
